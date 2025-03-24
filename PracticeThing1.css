@@ -1,12 +1,15 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(AnandaBlackPersonalUseRegular-rg9Rx.ttf);
+    src: url(http://127.0.0.1:3000/Fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
 }
 .beBold{
     font-weight: bold;
-    font-family: Times New Roman;
+    font-family: Times;
     font-size: larger;
     margin-bottom: 5px;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 head{
     display: block;
@@ -85,4 +88,14 @@ div ul li img{
 }
 .RomeoandJulietPhoto{
     height: 300px;
+}
+.historyImg{
+    height:300px;
+}
+.dopamineImg{
+    height:300px;
+}
+.specialDiv{
+    margin: 35px;
+    padding: 1px;
 }
